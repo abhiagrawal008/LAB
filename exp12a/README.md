@@ -31,7 +31,7 @@ Then open http://localhost:3000
 | GET | `/timetable` | Lab Task 4 |
 | GET / POST | `/registration` | Lab Task 5 (EJS form → result page) |
 
-> Task 1: put your roll number and branch in the `me` object in `app.js`.
+> Task 1 details (name, SAP ID, branch) are in the `me` object in `app.js`.
 
 ## Try the POST routes
 

@@ -137,21 +137,20 @@ app.get('/profile/:id', (req, res) => {
 // LAB TASK 1: Basic server — my details as text, HTML and JSON
 // ============================================
 
-// Edit these with your own details
 const me = {
-  name: 'Abhi Agrawal',
-  rollNo: 'YOUR_ROLL_NO',
+  name: 'Abhi Kumar Agrawal',
+  sapId: '590014564',
   branch: 'B.Tech CSE'
 };
 
 app.get('/me/text', (req, res) => {
-  res.type('text/plain').send(`Name: ${me.name}, Roll No: ${me.rollNo}, Branch: ${me.branch}`);
+  res.type('text/plain').send(`Name: ${me.name}, SAP ID: ${me.sapId}, Branch: ${me.branch}`);
 });
 
 app.get('/me/html', (req, res) => {
   res.send(`
     <h1>${me.name}</h1>
-    <p><strong>Roll No:</strong> ${me.rollNo}</p>
+    <p><strong>SAP ID:</strong> ${me.sapId}</p>
     <p><strong>Branch:</strong> ${me.branch}</p>
   `);
 });

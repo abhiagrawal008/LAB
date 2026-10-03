@@ -11,7 +11,7 @@
     "mongoose",
     "mongodb"
   ],
-  "author": "Abhi Agrawal",
+  "author": "Abhi Kumar Agrawal",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {

@@ -1,5 +1,8 @@
 # LAB
-Backend Development lab work — **Abhi Agrawal**
+Backend Development lab work
+
+**Name:** Abhi Kumar Agrawal  
+**SAP ID:** 590014564
 
 | # | Experiment | Folder | Tech |
 |---|------------|--------|------|
@@ -41,7 +44,7 @@ An Express server covering response methods, route and query parameters, POST da
 
 | Lab task | Route |
 |----------|-------|
-| 1. Name, roll number and branch as text / HTML / JSON | `/me/text`, `/me/html`, `/me/json` |
+| 1. Name, SAP ID and branch as text / HTML / JSON | `/me/text`, `/me/html`, `/me/json` |
 | 2. Calculator (add, subtract, multiply, divide, modulus, power) | `/calculator?num1=2&num2=10&operation=power` |
 | 3. Student management | `GET /students`, `GET /students/:id`, `POST /students/add` |
 | 4. Course timetable (EJS) | `/timetable` |
