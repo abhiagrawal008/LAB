@@ -1,4 +1,7 @@
 # LAB
+
+> **Moved:** this repository is no longer updated. The current version is in [Backend/LAB](https://github.com/abhiagrawal008/Backend/tree/main/LAB).
+
 Backend Development lab work
 
 **Name:** Abhi Kumar Agrawal  
